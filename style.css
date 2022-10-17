@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.main-block {
+  margin: 0 auto;
+  text-align: center;
+  display: table;
+}
+
+.left-section {
+  width: 25%;
+}
+
+.left__image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.left-section__title,
+.right-section__title,
+.right-section__title--secondary {
+  display: block;
+}
+
+.right-section {
+  width: 50%;
+
+  background-color: green;
+}
